@@ -1,5 +1,6 @@
-function app () {
-	// You can do it. 
-}
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-app();
+var Gallery = require('./components/Gallery.jsx')
+
+ReactDOM.render(<Gallery />, document.body.querySelector('#app'))
